@@ -38,7 +38,7 @@ export default function KitchenDisplay() {
   return (
     <div className="p-8">
       <h1 className="text-2xl font-bold mb-1">Pantalla de Cocina</h1>
-      <p className="text-lazeez-dark/60 mb-6">Órdenes en tiempo real por mesa</p>
+      <p className="text-lg text-lazeez-dark/60 mb-6">Órdenes en tiempo real por mesa</p>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
         {active.map((order) => {

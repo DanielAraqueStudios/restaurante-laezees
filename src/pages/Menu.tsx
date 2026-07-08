@@ -11,7 +11,7 @@ export default function Menu() {
   return (
     <div className="max-w-6xl mx-auto px-6 py-12">
       <h1 className="text-4xl font-bold text-center mb-2">Nuestro Menú</h1>
-      <p className="text-center text-lazeez-dark/60 mb-8">Cocina árabe tradicional con ingredientes frescos</p>
+      <p className="text-center text-lg text-lazeez-dark/60 mb-8">Cocina árabe tradicional con ingredientes frescos</p>
 
       <div className="flex flex-wrap gap-2 justify-center mb-10">
         {(['Todos', ...categories] as const).map((c) => (

@@ -22,7 +22,7 @@ export default function OrderPage() {
       <div className="max-w-xl mx-auto px-6 py-24 text-center">
         <div className="text-5xl mb-4">✅</div>
         <h1 className="text-2xl font-bold mb-2">¡Pedido enviado a cocina!</h1>
-        <p className="text-lazeez-dark/60 mb-6">
+        <p className="text-lg text-lazeez-dark/60 mb-6">
           Tu orden <span className="font-semibold">#{confirmedId.slice(-5)}</span> está en preparación. Un
           mesero la llevará a tu mesa en breve.
         </p>

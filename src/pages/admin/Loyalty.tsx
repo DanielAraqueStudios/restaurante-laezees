@@ -12,7 +12,7 @@ export default function Loyalty() {
   return (
     <div className="p-8">
       <h1 className="text-2xl font-bold mb-1">Programa de Fidelización</h1>
-      <p className="text-lazeez-dark/60 mb-6">Niveles, beneficios y clientes top</p>
+      <p className="text-lg text-lazeez-dark/60 mb-6">Niveles, beneficios y clientes top</p>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
         {loyaltyTiers.map((t) => (

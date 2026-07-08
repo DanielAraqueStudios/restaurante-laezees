@@ -16,7 +16,7 @@ export default function Home() {
         <div className="max-w-2xl px-6">
           <p className="uppercase tracking-[0.3em] text-lazeez-gold text-sm mb-4">Medellín, Colombia</p>
           <h1 className="text-5xl md:text-6xl font-display font-extrabold mb-4">Lazeez</h1>
-          <p className="text-lg text-lazeez-cream/90 mb-8">
+          <p className="text-xl text-lazeez-cream/90 mb-8">
             Sabores auténticos de Medio Oriente. Ven a vivir la experiencia o pide para llevar directamente
             desde nuestra mesa digital.
           </p>
@@ -39,7 +39,7 @@ export default function Home() {
 
       <section className="max-w-6xl mx-auto px-6 py-16">
         <h2 className="text-3xl font-bold text-center mb-2">Platos más pedidos</h2>
-        <p className="text-center text-lazeez-dark/60 mb-10">Los favoritos de nuestros comensales</p>
+        <p className="text-center text-lg text-lazeez-dark/60 mb-10">Los favoritos de nuestros comensales</p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {popular.map((item) => (
             <div key={item.id} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">

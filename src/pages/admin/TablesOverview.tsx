@@ -24,7 +24,7 @@ export default function TablesOverview() {
   return (
     <div className="p-8">
       <h1 className="text-2xl font-bold mb-1">Mesas</h1>
-      <p className="text-lazeez-dark/60 mb-6">Estado y ocupación por zona</p>
+      <p className="text-lg text-lazeez-dark/60 mb-6">Estado y ocupación por zona</p>
 
       {zones.map((zone) => (
         <div key={zone} className="mb-8">

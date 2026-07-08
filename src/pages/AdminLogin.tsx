@@ -15,7 +15,7 @@ export default function AdminLogin() {
     <div className="min-h-screen flex items-center justify-center bg-lazeez-dark px-6">
       <form onSubmit={handleSubmit} className="bg-white rounded-xl shadow-lg p-8 w-full max-w-sm">
         <h1 className="font-display text-2xl font-bold text-center mb-1 text-lazeez-maroon">Lazeez</h1>
-        <p className="text-center text-sm text-lazeez-dark/60 mb-6">Acceso de personal</p>
+        <p className="text-center text-base text-lazeez-dark/60 mb-6">Acceso de personal</p>
         <div className="space-y-4">
           <div>
             <label className="block text-sm font-medium mb-1">Usuario</label>

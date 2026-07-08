@@ -8,7 +8,7 @@ export default function Performance() {
   return (
     <div className="p-8">
       <h1 className="text-2xl font-bold mb-1">Desempeño</h1>
-      <p className="text-lazeez-dark/60 mb-6">Indicadores clave del restaurante</p>
+      <p className="text-lg text-lazeez-dark/60 mb-6">Indicadores clave del restaurante</p>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
         {dailyStats.map((s) => (
